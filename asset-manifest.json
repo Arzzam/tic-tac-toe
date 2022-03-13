@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Arzzam/tic-tac-toe/static/css/main.e8fd1c3d.css",
+    "main.js": "/Arzzam/tic-tac-toe/static/js/main.a7adb10a.js",
+    "index.html": "/Arzzam/tic-tac-toe/index.html",
+    "main.e8fd1c3d.css.map": "/Arzzam/tic-tac-toe/static/css/main.e8fd1c3d.css.map",
+    "main.a7adb10a.js.map": "/Arzzam/tic-tac-toe/static/js/main.a7adb10a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8fd1c3d.css",
+    "static/js/main.a7adb10a.js"
+  ]
+}
