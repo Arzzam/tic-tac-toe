@@ -41,6 +41,26 @@ body {
   box-shadow: 0 4px rgb(117, 15, 117), 0 10px rgba(0, 0, 0, 0);
 }
 
+.disabled .btn {
+  cursor: default;
+}
+.disabled .btn:hover {
+  top: 0;
+  background: #ffffff;
+  color: rgb(169, 169, 248);
+  box-shadow: 0 12px rgb(117, 15, 117), 0 18px rgba(0, 0, 0, 0.4);
+}
+
+.btn.disabled {
+  cursor: default;
+}
+.btn.disabled:hover {
+  top: 0;
+  background: #ffffff;
+  color: rgb(150, 27, 150);
+  box-shadow: 0 12px rgb(117, 15, 117), 0 18px rgba(0, 0, 0, 0.4);
+}
+
 .game {
   display: flex;
   flex-wrap: wrap;
