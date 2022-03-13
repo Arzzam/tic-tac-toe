@@ -1,8 +1,14 @@
 import React from "react";
 import Game from "./Components/Game";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
-  return <Game />;
+  return (
+    <div>
+      <Game />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
