@@ -26,6 +26,12 @@ const Board = (props) => {
       </div>
       <div>
         <Square
+          value={props.squares[3]}
+          onclick={() => {
+            props.onclick(3);
+          }}
+        />
+        <Square
           value={props.squares[4]}
           onclick={() => {
             props.onclick(4);
@@ -37,14 +43,14 @@ const Board = (props) => {
             props.onclick(5);
           }}
         />
+      </div>
+      <div>
         <Square
           value={props.squares[6]}
           onclick={() => {
             props.onclick(6);
           }}
         />
-      </div>
-      <div>
         <Square
           value={props.squares[7]}
           onclick={() => {
@@ -55,12 +61,6 @@ const Board = (props) => {
           value={props.squares[8]}
           onclick={() => {
             props.onclick(8);
-          }}
-        />
-        <Square
-          value={props.squares[9]}
-          onclick={() => {
-            props.onclick(9);
           }}
         />
       </div>
