@@ -73,7 +73,7 @@ const Game = (props) => {
     ? winner === "D"
       ? "Draw"
       : "Winner is " + winner
-    : "Next Player is" + (xIsNext ? "X" : "O");
+    : "Next Player is " + (xIsNext ? "X" : "O");
   const moves = history.map((step, move) => {
     const desc = move ? "Go to #" + move : "Start the Game";
     return (
